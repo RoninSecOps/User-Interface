@@ -72,17 +72,16 @@ body {
 
 nav {
 	margin-bottom: 60px;
-	
+
 }
 
 .navigation {
 	margin-top: 20px;
 	display: inline-block;
+}
 
-
-}	
 header {
-	margin-top: 120px;
+	margin-top: 5px;
 }
 .menu {
 	width: 75%; 
@@ -140,6 +139,11 @@ button {
 	width: 30%;
 	margin-left: 35%;
 	margin-right: 35%
+}
+button:hover {
+	cursor: pointer;
+	color:red;
+	background: gold;
 }
 
 section {
