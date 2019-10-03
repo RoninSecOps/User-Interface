@@ -3,64 +3,301 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+body {
+  width: 880px;
+  margin: 0 auto;
+}
+
+nav {
+  margin-bottom: 60px;
+}
+
+.navigation {
+  margin-top: 20px;
+  display: inline-block;
+}
+
+header {
+  margin-top: 5px;
+}
+.menu {
+  width: 75%;
+  margin-top: 5%;
+}
+
+.menu a {
+  color: grey;
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 45px;
+}
+.menu a:hover {
+  color: red;
+  background: gold;
+  border-radius: 5px;
+}
+
+.nav-logo {
+  width: 25%;
+  text-align: right;
+}
+
+.logo {
+  text-align: right;
+  vertical-align: middle;
+}
+
+.main {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 40px;
+}
+
+.topic {
+  width: 50%;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+.main-img {
+  width: 50%;
+  text-align: right;
+}
+
+button {
+  background: white;
+  padding: 5px 20px;
+  width: 30%;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+button:hover {
+  cursor: pointer;
+  color: red;
+  background: gold;
+}
+
+section {
+  margin: 30px 0px;
+}
+
+.top-section {
+  display: inline-block;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+.top-section p,
+.section-bottom p {
+  font-family: 'lato', sans-serif;
+  font-size: 15px;
+}
+
+.futures {
+  width: 50%;
+}
+
+.about {
+  width: 50%;
+}
+
+.middle-img {
+  width: 100%;
+}
+
+.section-bottom {
+  display: inline-block;
+  margin-bottom: 20px;
+  vertical-align: top;
+}
+.section-bottom div {
+  margin-right: 5px;
+}
+.section-bottom div:last-child {
+  margin-right: 0;
+}
+
+.services,
+.vision,
+.product {
+  width: 32%;
+  /* padding-right: 15px; */
+  padding: 15px;
+}
+
+.product {
+  width: 32%;
+  /* padding-right: 15px; */
+}
+
+.vision {
+  width: 32%;
+  /* padding-right: 15px; */
+}
+
+hr {
+  margin-top: 5px;
+  margin-bottom: 4px;
+  border: 1px solid black;
+}
+
+address {
+  padding-top: 35px;
+}
+footer {
+  font-size: 14px;
+  padding: 20px;
+  text-align: center;
+}
